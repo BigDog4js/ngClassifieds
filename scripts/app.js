@@ -15,13 +15,13 @@ angular.module("ngClassifieds",["ngMaterial", "ui.router"])
     $stateProvider
         .state("home", {//config
             url: "/", // url is always relative; '/' + state name
-            templateUrl: "/views/home.html",
+            templateUrl: "views/home.html",
             controller: "classifiedsCtrl"
         })
     
         .state("newads", {//config
             url: "/newads",
-            templateUrl: "/views/newAds.html",
+            templateUrl: "views/newAds.html",
             controller: "classifiedsCtrl"
         })
 });
